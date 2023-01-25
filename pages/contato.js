@@ -11,7 +11,7 @@ function Home (){
             <meta name="description" content="Meusite" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
-          <title>My page title</title>
+          <title>contato</title>
         </Head>
         <Menu/>
             
