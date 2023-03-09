@@ -1,23 +1,31 @@
 import { requestToBodyStream } from "next/dist/server/body-streams";
 import Head from 'next/head'
-import Menu from '../components/Menu'
+import { Component } from "react";
+import Content from "../components/Content";
+import Menu from "../components/Menu";
+import Footer from "../components/Footer"
+
+
 function Home (){
     
     return (
-    <div>
+      <div>
         <Head>
-            <meta charSet="utf-8"/>
-            <meta name="robots" contents="index, folow"/>
-            <meta name="description" content="Meusite" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+          <meta charSet="utf-8" />
+          <meta name="robots" contents="index, folow" />
+          <meta name="description" content="Meusite" />
 
           <title>My page title</title>
+          
         </Head>
-        <Menu/>
-            
+       
         
-      </div>
       
-      )
+       
+        
+ 
+      </div>
+    );
+   
 }
 export default Home;

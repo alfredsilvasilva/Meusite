@@ -1,4 +1,11 @@
 import '../styles/style.css'
-export default function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+import MainContainer from '../components/maincontainer'
+
+function MyApp({ Component, pageProps }) {
+    
+  return (
+  <MainContainer>
+    <Component {...pageProps} />
+  </MainContainer>)
   }
+  export default MyApp;

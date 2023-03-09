@@ -1,6 +1,8 @@
 import { requestToBodyStream } from "next/dist/server/body-streams";
 import Head from 'next/head'
-import Menu from '../components/Menu'
+
+import Content from "../components/Content"
+
 function Home (){
     
     return (
@@ -13,8 +15,8 @@ function Home (){
 
           <title>contato</title>
         </Head>
-        <Menu/>
-            
+
+   
         
       </div>
       
