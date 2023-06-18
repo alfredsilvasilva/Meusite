@@ -4,6 +4,7 @@ import { Component } from "react";
 import Content from "../components/Content";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer"
+import MainContainer from "../components/Maincontainer";
 
 
 function Home (){
@@ -18,7 +19,7 @@ function Home (){
           <title>MeuSite</title>
           
         </Head>
-       
+  
         
       
        
