@@ -1,5 +1,5 @@
 import '../styles/style.css'
-import MainContainer from '../components/maincontainer'
+import MainContainer from '../components/Maincontainer'
 
 function MyApp({ Component, pageProps }) {
     
