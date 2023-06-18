@@ -15,7 +15,7 @@ function Home (){
           <meta name="robots" contents="index, folow" />
           <meta name="description" content="Meusite" />
 
-          <title>My page title</title>
+          <title>MeuSite</title>
           
         </Head>
        
